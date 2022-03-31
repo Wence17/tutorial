@@ -1,0 +1,31 @@
+a:hover{
+    background: black;
+    color: white;
+}
+body{
+    background: #b7e797;
+}
+#download{
+    margin: 0 auto;
+    background: #CC9544;
+    width: 800px;
+   height: 1000px;
+}
+head{
+    padding: 0PX 0PX 10PX 0PX;
+}
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+}
+ul{
+    background-color: #ddd2d2;
+    width: 360px;
+    margin: 100px auto;
+    list-style:lower-greek;
+    list-style-position: inside;
+}
+li:nth-child(2n){
+    background-color: white;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Wenceslaus' persnal website</title>
+    </head>
+    <body>
+        <h1>Questionaire</h1>
+        <div id="questionaire-form">
+            <form action="script.php" method=" "></form>
+                <label for="First-name">Firstname</label>
+                <input type="text" name="First-name" placeholder="firstname" required>
+                <label for="sur-name">Surname</label>
+                <input type="text" name="sur-name" placeholder="surname" required>
+                <label for="other-names">Othernames</label>
+                <input type="text" name="other-names" placeholder="othernames" required>
+                <div>
+                    <label for="gender-male">Male</label>
+                    <input type="radio" name="gender-choice" value="choice-1">
+                    <label for="gender-female">Female</label>
+                    <input type="radio" name="gender-choice" value="choice-2">
+                    <label for="gender-other">others</label>
+                    <input type="radio" name="gender-choice" value="choice-3">
+                </div>
+                <div>
+                    <label for="email">E-mail address</label>
+                    <input type="email" name="email" placeholder="xyz@email.com">
+                    <label for="password">password</label>
+                    <input type="password" name="password">
+                </div>
+                <div>
+                    <label for="Month">Birthday</label>
+                    <select name="Month" id="">
+                        <option value="0" selected disabled>Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="march">march</option>
+                        <option value="April">April</option>
+                        <option value="May">may</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <label for="Day"></label>
+                    <select name="Day" id="">
+                        <option value="0" selected disabled>Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Nationality">Nationality</label>
+                    <select name="Nationality" id="">
+                        <option value="o" selected disabled>Nationality</option>
+                        <option value="China">China</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="india">India</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Nigeria">Nigeria</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mother's name">Mother's name</label>
+                    <input type="text" name="mother's name" placeholder="mother's name" required>
+                </div>
+                <div>
+                    <label for="fahther's name">Mother's name</label>
+                    <input type="text" name="father's name" placeholder="father's name" required>
+                </div>
+                <div>
+                    <label for="maiden name">Mother's maiden name</label>
+                    <input type="text" name="maiden name" placeholder="required" required>
+                </div>
+                <label for="agree">I agree to all the conditions of the form</label>
+                <input type="checkbox" name="agree">
+                <button type="submit">submit</button>
+            </form>
+        </div>
+    </body>
+</html>
